@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #first, we find the right place: the one containing scripts:
-MINECRAFT_FOLDER=$(dirname "$(readlink -f "$0")"
+MINECRAFT_FOLDER=$(dirname "$(readlink -f "$0")")
 #default: folder name which contains the script
 SERVER_NAME=$(basename $MINECRAFT_FOLDER)
 #default: minecraft_server_VERSION.jar
